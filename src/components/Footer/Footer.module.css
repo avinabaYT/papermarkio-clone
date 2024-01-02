@@ -1,0 +1,42 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.footer > h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    grid-column: 1 / 5;
+}
+
+.footer_col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_col > span {
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer_col > a {
+    font-size: 12px;
+    font-weight: 400;
+    color: #6b7280;
+    transition: all 0.2s ease-in-out;
+}
+.footer_col > a:hover {
+    text-decoration: underline;
+}
+
+.footer > p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999;
+    grid-column: 1 / 5;
+    /* margin-top: 50px; */
+}
