@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    height: 90vh;
+    min-height: 90vh;
     background: white;
     display: flex;
     flex-direction: column;
@@ -320,9 +320,9 @@
 }
 
 .hero_main {
-    height: 100%;
+    min-height: 90vh;
     width: 100%;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(15px);
 }
 
 .hero_content {

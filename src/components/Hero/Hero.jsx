@@ -60,11 +60,11 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className={styles.hero_orgs}>
-                    <img src='/logo1.png' alt='logo1' />
-                    <img src='/logo2.png' alt='logo2' />
-                    <img src='/logo3.png' alt='logo3' />
-                    <img src='/logo4.png' alt='logo4' />
-                    <img src='/logo5.webp' alt='logo5' />
+                    <img src='/assets/logo1.png' alt='logo1' />
+                    <img src='/assets/logo2.png' alt='logo2' />
+                    <img src='/assets/logo3.png' alt='logo3' />
+                    <img src='/assets/logo4.png' alt='logo4' />
+                    <img src='/assets/logo5.webp' alt='logo5' />
                 </div>
             </div>
         </div>

@@ -1,0 +1,28 @@
+.finalcta {
+    padding: 50px
+}
+
+.finalcta_header {
+    text-align: center;
+}
+.finalcta_header > h2 {
+    font-size: 40px;
+}
+.finalcta_header > p {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.btns_wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.img_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

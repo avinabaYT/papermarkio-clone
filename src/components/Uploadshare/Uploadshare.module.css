@@ -22,7 +22,7 @@
 }
 
 .us_container {
-    background-image: url(/usbg.png);
+    background-image: url(/assets/usbg.png);
     background-size: cover;
     width: 100%;
     height: 75vh;
