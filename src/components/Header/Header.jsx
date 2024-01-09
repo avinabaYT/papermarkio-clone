@@ -11,7 +11,7 @@ export default function Header() {
                     <GithubIcon />
                     Github
                 </Link>
-                <Link href='/' className='btn primaryBtn'>
+                <Link href='/login' className='btn primaryBtn'>
                     Share Document
                 </Link>
             </div>

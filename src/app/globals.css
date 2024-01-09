@@ -37,10 +37,18 @@ a {
     background-color: #fff;
     color: #000;
 }
+.tertiaryBtn {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #000;
+}
 
 .primaryBtn:hover {
     background-color: #333;
 }
 .secondaryBtn:hover {
     border: 1px solid #000;
+}
+.tertiaryBtn:hover {
+    background-color: #e2e3e6;
 }
