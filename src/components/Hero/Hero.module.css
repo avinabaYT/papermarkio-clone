@@ -1,6 +1,5 @@
 .hero {
     position: relative;
-    min-height: 90vh;
     background: white;
     display: flex;
     flex-direction: column;
@@ -320,8 +319,8 @@
 }
 
 .hero_main {
-    min-height: 90vh;
     width: 100%;
+    padding: 40px 0 50px;
     backdrop-filter: blur(15px);
 }
 
@@ -342,7 +341,7 @@
     border-radius: 100px;
     padding: 5px 10px;
 }
-.try_now a {
+.try_now span {
     color: rgb(16, 185, 129);
     font-weight: bold;
     margin-left: 5px;

@@ -41,10 +41,10 @@ export default function Hero() {
             </div>
             <div className={styles.hero_main}>
                 <div className={styles.hero_content}>
-                    <div className={styles.try_now}>
-                        <span>Chat with your document.</span>
-                        <Link href='/'>Try Now &rarr;</Link>
-                    </div>
+                    <Link href='/ai' className={styles.try_now}>
+                        Chat with your document.
+                        <span>Try Now &rarr;</span>
+                    </Link>
                     <div className={styles.hero_title}>
                         <h1>The Open-Source DocSend Alternative</h1>
                     </div>

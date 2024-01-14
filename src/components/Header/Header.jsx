@@ -5,7 +5,9 @@ import GithubIcon from "../../icons/GithubIcon";
 export default function Header() {
     return (
         <div className={styles.header}>
-            <h1 className={styles.title}>Papermark</h1>
+            <Link href='/' className={styles.title}>
+                Papermark
+            </Link>
             <div className={styles.links}>
                 <Link href='/' className='btn secondaryBtn'>
                     <GithubIcon />
